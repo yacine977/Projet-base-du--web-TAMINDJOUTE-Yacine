@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+	
+		<link rel="stylesheet" type="text/css" href="yacine.css">
+	
+		<title>Un don despoir</title>
+
+	</head>
+
+<body>
+
+	<header>
+
+		<div id="logo">
+		
+		</div>
+
+		<div id="barre-de-recherche">
+		<label for="barre de recherche"></label>
+		<input type="search" id="site-search" name="q" aria-label="Search through site content">
+		<button>Search</button>
+		</div><br><br>
+
+		<div id="image-entete">
+		<a href="page-daccueil.html"><img src="images/image-entete.jpg" width="1350" height="400" ></a>
+		</div>
+
+	</header>
+ 	<nav>
+
+
+ 	
+
+	<ul id="menu-deroulant"> 						<! -- menu-deroulant -->
+	
+	<li><a href=""> Actions </a>
+	<ul>
+	<li><a href="page-action.html" target="_blanc"> Toutes les Actions </a></li>
+	<li><a href="page-action.html" target="_blanc"> Organiser une Action </a></li>
+	<li><a href="https://www.msf-azg.be/fr/faire-appel-%C3%A0-un-orateur-msf" target="_blanc"> Demander un Orateur</li></a>
+	</ul>
+
+	</li><li><a href="https://www.msf.fr/actualites" target="_blanc">Nouvelles </a>
+	<ul>
+	<li><a href="https://www.msf.fr/actualites" target="_blanc">Nouvelles</a></li>
+	<li> <a href="https://www.msf.fr/decouvrir-msf/notre-histoire" target="_blanc"> Histoire du terrain </a> </li>
+	<li> <a href="https://www.msf.fr/presse"> Presse </a></li>
+	</ul>
+
+	</li><li><a href="https://www.msf.fr/agir/rejoindre-nos-equipes/offres-emploi" target="_blanc">Travailler pour nous </a>
+	<ul>
+	<li> <a href="https://www.msf.fr/agir/rejoindre-nos-equipes/offres-emploi" target="_blanc"> Sur le Terrain</a></li>
+	<li><a href="https://www.msf.fr/agir/rejoindre-nos-equipes/offres-emploi" target="_blanc">au Bureau</a></li>
+	<li><a href="https://www.msf.fr/agir/rejoindre-nos-equipes/offres-emploi" target="_blanc">stagiaire et bénévole</a></li>
+	</ul>
+
+	</li><li><a href="page-de-contact.html" target="_blanc">Contact </a>
+	<ul>
+	<li><a href="page-de-contact.html" target="_blanc">Contactez-nous </a></li>
+	<li><a href="page-de-contact.html" target="_blanc">Appelez-nous</a></li>
+	<li><a href="page-de-contact.html" target="_blanc">Envoyer nous un email</a></li>
+	</ul>
+
+	</li><li><a href="https://www.msf.ch/a-propos" target="_blanc">A propos </a>
+	<ul>
+	<li><a href="https://www.msf.ch/a-propos" target="_blanc">Qui somme-nous ?</a> </li>
+	<li><a href="https://www.msf.ch/a-propos" target="_blanc">Numéro de compte IBAN MSF</a></li>
+	<li><a href="https://www.msf.ch/a-propos" target="_blanc">FAQ</a></li>
+	</ul>
+
+	
+	</li>
+	</ul>
+
+ 	</nav>
+
+
+
+<section id="ss" > 
+
+
+<div> <img src="images/image-formulaire.jpg" width="612" height="408"> </div>
+
+
+
+<div id="article-formulaire">
+
+	<article>
+
+		<h1 class="titre-intro-formulaire">Faites un Don </h1>
+		<p class="article-formulaire">Permet d'acheter de nouveaux tests rapides pour diagnostiquer <br> la tuberculose résistante chez deux personnes, réduisant <br> ainsi le délai de diagnostic de 42 jours à deux heures. </p>
+		<p>
+
+	</article>
+
+</div>
+ 
+
+ 
+
+ 				
+ 				
+ 				
+		<form method="post" action="traitment.php" >
+					
+			<div id="formulaire">	
+				<p><label for ="Nom">Nom</label> <input type="text" name="Nom" id="Nom" required></p>
+				<p><label for ="Prenom">Prénom</label> <input type="text" name="Prenom" id="Prenom" autofocus required ></p>
+				<SELECT name="Réseau" size="1" >
+    				<OPTION >-- Valeur du Don -- </OPTION> 
+					<OPTION>20 </OPTION>
+					<OPTION>30 </OPTION>
+					<OPTION>50 </OPTION>
+					<OPTION>100 </OPTION>
+					<OPTION>200 </OPTION>
+					<OPTION>500 </OPTION>
+					<OPTION>1000 </OPTION>
+					<OPTION>Autre montant</OPTION>
+						    	
+				</SELECT> &nbsp;
+
+					<p><label for ="Adresse">Adresse</label> <input type="text" name="Adresse" id="Adresse" autofocus required ></p>
+							
+						<SELECT name="Réseau" size="1" >
+    						
+    						<OPTION >-- Choisissez votre Pays -- 
+							<OPTION>Beligique
+						    <OPTION>France
+						    <OPTION>Italie
+						    <OPTION>Portugal
+						    <OPTION>Espagne
+						    <OPTION>Allmagne
+						    <OPTION>Pays-Bas
+						    <OPTION>Chine
+						    <OPTION>Inde	
+						
+						</SELECT> &nbsp;
+
+							<p><label for ="Adresse de courriel">Email <input type="email" name="Adresse de courriel" id="Adresse de courriel" required></p>
+							<p><label for="Numero de telephone">Numéro de téléphone</label>  <input type="tel" name="Numero de telephone" maxlength="10" id="Numero de telephone" required  ></p>
+							<button> Donner &nbsp; &nbsp; </button> 	
+							
+
+				</div>			
+			
+			</form>
+				
+
+
+
+ </section>
+
+
+
+
+
+<footer>
+
+
+
+<div id="footer">
+	
+
+	<div id="footer1">
+	<hr>
+	<a href=""> Page d’accueil de MSF </a><br><br>
+	<a href=""> Ce que nous faisons </a><br><br>
+    <a href=""> Recherche et rapports </a><br><br>
+    <a href=""> Où nous travaillons </a><br><br>
+    <a href=""> Centre de presse </a>
+	</div>
+
+
+	<div id="footer2">
+	<hr>
+	<a href=""> Qui sommes-nous </a><br><br>
+	<a href="">Conseil d'administration de MSF </a><br><br>
+    <a href="">Postuler à MSF</a><br><br>
+    <a href="">Devenir partenaire de MSF</a><br><br>
+    <a href="">Agir</a>
+	</div>
+
+	<div id="footer3">
+	<hr>
+	<a href="">Sites liés à MSF</a><br><br>
+	<a href="">MSF Connect</a><br><br>
+	<a href="">La Voix des Jeunes</a><br><br>
+	<a href="">Données de MSF</a><br><br>
+	<a href="">Soutenir MSF</a>
+	</div>
+
+
+	<div id="footer4">
+	<hr>
+	<button>DEVENEZ DONATEUR</button><br><br>
+	<img src="images/facebook.svg">
+	<img src="images/youtube.svg">
+	<img src="images/twitter.svg">
+	<img src="">
+	</div>
+
+
+
+</div>
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

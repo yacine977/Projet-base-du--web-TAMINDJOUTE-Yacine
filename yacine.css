@@ -1,0 +1,552 @@
+
+
+
+
+  
+
+
+body{                                
+    margin:0;								/* espacement entre la bordure de l'élément et les autres éléments */
+    padding:0;								/* espacement entre le contenu et la bordure */
+}
+
+
+header {
+
+background-color: #800000;
+	
+		}
+
+/* pour tout les écrans qui pour ce qui ont au maximum 800px */
+@media all and (max-width: 802px)  {
+
+
+
+#menu-deroulant    {
+ 
+    display: flex;
+    flex-direction: column;                                                /* mettre les elements de la listes sous les entete de la liste */                                                           
+    margin:0px 30px;
+    padding:10px;
+    
+
+}
+
+
+
+#menu-deroulant li  {
+ 
+    display: flex;
+    flex-direction: column;         /* mettre les elements de la listes sous les entete de la liste */                                                           
+    margin:0px 30px;
+    padding:10px;
+    text-align: center;
+    
+
+}
+
+
+#image-entete {
+
+  display: none;
+
+}
+
+
+
+#section-image img {
+
+  width: 85% ;
+  
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.legende-actu p  {
+
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+
+}
+
+
+#aside-article {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+ img {
+
+  width: auto;
+
+}
+
+
+#bloc-contact {
+
+display: flex;
+flex-direction:column;
+justify-content: space-around;
+
+}
+
+#iban {
+
+  color:#800000;
+}
+
+
+#carte-maps iframe {
+
+width: auto;
+text-align: center;
+display: flex;
+margin: auto;
+  
+}
+
+
+
+#ss img {
+
+  width: 90%; 
+  text-align: center;
+  display: flex;
+  padding: 15px;
+
+}
+
+
+#section-action1 {
+
+  width: auto;
+
+}
+
+#footer {
+
+  flex-direction:column;
+  height: auto;
+  width:auto;
+  padding: 15px;
+
+}
+
+
+#footer2 a  {
+
+color:orange;
+
+} 
+
+
+}
+
+
+ /* fin des responsive */
+
+
+
+
+
+
+
+
+
+
+#barre-de-recherche {
+
+	float: right;
+	margin-right: 50px;
+	padding: 15px;
+  
+
+} 
+
+
+#menu-deroulant, #menu-deroulant ul {
+    
+    padding: 0;								/* espacement entre la bordure de l'élément et les autres éléments html  */
+    margin: 0;								/* espacement entre le contenu et la bordure */
+	list-style: none;								
+    
+}
+
+#menu-deroulant {
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+   	background:#800000;
+   	color:white;
+   	font-size: 21px;
+
+
+    
+}
+
+#menu-deroulant> li  {
+ 
+    
+    display: flex;
+    display: inline-block;					/* mettre les elements de la listes sous les entete de la liste */                                	                         
+    margin:0px 30px;
+    padding:10px;
+    
+
+}
+
+#menu-deroulant ul li {
+     
+    padding:15px;														
+    background:#800000;
+    color:white;
+    background-image: linear-gradient(45deg,#800000,red);
+     
+}
+
+#menu-deroulant a {
+    
+    text-decoration: none;
+    color:white;
+}
+
+#menu-deroulant ul {
+    
+    position: absolute;  
+    text-align:left;
+    margin:10px 0px 0px -14px ;
+ 	display:none;							/* faire disparaitre les elements de la liste */ 
+     
+}
+#menu-deroulant li:hover ul {
+	display: block;						/* faire aparaitre les elements de la liste */
+}
+ 
+#menu-deroulant li:hover{
+    background:orange;
+     
+}
+
+
+.figure {
+
+	font-family: tahoma;
+}
+
+aside
+
+{
+    float: right;
+    padding: 0;
+	margin: 0;
+	border: 1px solid gray;    
+    
+}
+
+aside a {
+
+	text-decoration: none;
+		}
+
+a:hover { color: orange; }
+
+
+
+article {
+
+	margin:15px;
+
+}
+
+.titre-intro {
+
+	font-family: Cambria;
+	font-size: 22px;
+	color:orange;
+	
+	}
+
+
+
+#texte-intro {
+
+	font-family: Georgia, serif;
+	font-size: 20px;
+	
+}
+
+
+#actu3-actu4{	
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  
+}
+
+
+
+.legende-actu {
+      
+      text-align: center;
+      width: 450px;
+      bottom: 0;
+      background-color: rgba(200, 200, 200, 0.85);
+      opacity: 0;
+      -webkit-transition: opacity .5s ease;
+      transition: opacity .5s ease;
+      
+      }
+
+.actu4:hover .legende-actu {
+      
+      opacity:1;
+      
+      } 
+
+.actu3:hover .legende-actu {
+      
+      opacity:1;
+      
+      }
+
+
+
+
+#section-contact {
+
+  margin-left: 15px;
+
+}
+
+
+#bloc-contact {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      font-family: Georgia, serif;
+
+}
+
+
+
+#bloc-contact a {
+
+  text-decoration: none;
+  color:black;
+
+}
+
+#bloc-contact a:hover {
+
+  color:orange;
+
+}
+
+
+#hr-contact {
+
+display: none;
+
+}
+
+#ss  {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+
+
+}
+
+
+
+
+
+.titre-intro-formulaire {
+
+  font-family: Cambria;
+  font-size: 26px;
+  color:orange;
+  
+  
+}
+
+
+.article-formulaire  {
+    
+
+    font-family: Georgia, serif;
+    font-size: 22px;
+
+}
+
+
+#article-formulaire {
+
+  background-color: black;
+  color:white;
+  width: auto;
+  border:1px solid black;
+  
+   
+}
+
+
+form {
+
+background-image: url('images/ariere-plan-formulaire.png');
+background-repeat: no-repeat;
+
+margin: 15px;
+display: flex;
+padding:10px;
+width: 612px ;
+height: 408px;
+color:black;
+font-weight: bold;
+font-family: Georgia, serif;
+font-size: 16px;
+
+}
+
+
+
+
+
+form button {
+ 
+ font-family: Georgia, serif;
+ font-size: 16px;
+ width: 130px;
+ height: 30px; 
+
+}
+
+
+
+
+
+#titre-action {
+
+
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  color:orange;
+
+}
+
+#section-action1 p  {
+
+      text-align: center;
+      font-family: Georgia, serif;  
+      font-size: 20px;
+
+}
+
+
+#titre2-action {
+
+font-family: Georgia, serif;  
+font-size: 20px;
+color:#800000;
+margin: 5px;
+
+}
+
+#liste-action 
+{
+
+font-family: Georgia, serif;  
+font-size: 18px;
+
+}
+
+
+
+#liste-action a {
+
+  text-decoration: none;
+  color:black ;
+
+}
+
+
+#action-pays-news {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: Georgia, serif  ;
+  font-size: 20px;
+  color:orange;
+
+}
+
+
+#action-pays-news a {
+
+  text-decoration: none;
+
+}
+
+#carte-maps {
+  text-align: center;
+  width: auto;
+  margin-left: 95px;
+  padding: 15px;
+
+}
+
+
+
+#footer {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  clear: both;
+  border: 2px solid gray;
+  background-color: #800000;
+  padding: 15px;
+
+
+}
+ 
+footer a {
+
+  color:white;
+  text-decoration: none;
+  font-family:  Georgia, serif;
+
+} 
+
+footer hr {
+
+  width: 0%;
+  height: 5px;
+  color: #800000;
+
+}
+
+#footer4 button {
+
+background-color: orange;
+color:black;
+font-family:  Georgia, serif;
+border: 1px solid black; 
+
+}
+
+
